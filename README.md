@@ -376,139 +376,6 @@ Margin Improvement % = [Future Profit Margin %] - [Overall Profit Margin %]
 
 ---
 
-## 💡 STRATEGIC RECOMMENDATIONS
-
-### Recommendation 1: Eliminate High Discounts (>20%)
-**Priority:** 🔴 CRITICAL | **Impact:** 💰 +$242,462
-
-**Current State:**
-- 3,900 transactions lose money ($135K total losses)
-- Policy: No formal discount guidelines
-- Sales behavior: Discount-first approach
-
-**Proposed Action:**
-```
-1. Policy Change
-   • Maximum discount: 15% (no exceptions without VP approval)
-   • Eliminate all >20% discounts immediately
-   
-2. Sales Enablement
-   • Train sales team on value-based selling
-   • Provide pricing authority guidelines
-   • Teach ROI conversation techniques
-   
-3. Incentive Alignment
-   • Commission: 50% on volume, 50% on margin (currently 100% volume)
-   • Bonus: Hit margin targets, not just sales targets
-   • Recognition: Feature top margin achievers in team meetings
-   
-4. Implementation Timeline
-   • Q1 FY2018: Policy rollout + training
-   • Q1: Monitor and adjust
-   • By Q2: Full stabilization
-```
-
-**Financial Impact:**
-- Revenue: $362.8K in high-discount sales → shift to 15% discount tier
-- Projected profit: $107K (vs. -$135K currently)
-- **Net gain: +$242K annually**
-- Payback: Immediate (no investment required)
-
-**Risk Assessment:**
-- Risk: Lose price-sensitive customers
-- Mitigation: These customers are unprofitable anyway (negative margins)
-- Alternative: Acceptable loss of low-margin volume for profitability
-
----
-
-### Recommendation 2: Fix Furniture Category Margins
-**Priority:** 🟠 HIGH | **Impact:** 💰 +$54,600
-
-**Current State:**
-- Revenue: $743.5K (32% of total)
-- Profit: $17.6K (6% of total profit)
-- Margin: 2.37% (CRITICAL)
-
-**Proposed Action:**
-```
-1. Cost Structure Review (Q1)
-   • Audit supplier contracts for Furniture products
-   • Benchmark against competitors
-   • Identify cost reduction opportunities (target: 15% reduction)
-   
-2. Product Mix Optimization (Q1-Q2)
-   • Analyze SKU profitability
-   • Eliminate bottom 20% margin items
-   • Focus on premium furniture lines (higher margins)
-   
-3. Pricing Strategy Shift (Q1-Q2)
-   • Position Furniture as premium, not discount-driven
-   • Reduce average discount in category from 20% to 12%
-   • Focus on quality/durability messaging vs. price
-   
-4. Sales Training (Q2)
-   • Train team on Furniture value proposition
-   • Emphasis on design, durability, not price
-   • Bundle strategies with Office Supplies/Tech
-```
-
-**Financial Impact:**
-- Target margin: 9.78% (match Office Supplies)
-- Revenue: $743.5K × 9.78% = $72.7K profit (vs. $17.6K)
-- **Net gain: +$55K annually**
-
-**Implementation Cost:** ~$25K (consulting + training)
-**ROI:** 2.2x in first year, payback in 5 months
-
----
-
-### Recommendation 3: Improve Central Region Performance
-**Priority:** 🟡 MEDIUM | **Impact:** 💰 +$28,000
-
-**Current State:**
-- Margin: 9.7% (worst performer vs. East at 15%+)
-- Revenue: $310K, Profit: $30K
-- Problem: Execution issue (not market issue)
-
-**Proposed Action:**
-```
-1. Best Practice Transfer (Q1)
-   • Send top East region manager to audit Central operations
-   • Document East's pricing discipline, negotiation tactics
-   • Identify process differences
-   
-2. Sales Coaching (Q1-Q2)
-   • Intensive training for Central sales team
-   • Focus on: negotiation skills, discount authority, value selling
-   • Weekly coaching sessions (8 weeks)
-   
-3. Incentive Realignment (Q1)
-   • Match Central incentive structure to East
-   • Same commission/bonus formula
-   • Create friendly competition between regions
-   
-4. Territory/Personnel Review (Q2)
-   • Assess individual performance
-   • Reassign underperformers if needed
-   • Promote high performers from East to Central
-   
-5. Customer Segmentation (Q2)
-   • Apply Corporate-focused strategy to Central
-   • Reduce reliance on Consumer segment discounting
-   • Grow higher-margin account base
-```
-
-**Financial Impact:**
-- Target margin: 15% (match East)
-- Revenue: $310K × 15% = $46.5K profit (vs. $30K)
-- **Net gain: +$16.5K annually**
-- (Conservative; could be higher with proper execution)
-
-**Implementation Cost:** ~$10K (consulting + travel)
-**ROI:** 1.65x in first year, payback in 7 months
-
----
-
 ## 📈 COMBINED FINANCIAL IMPACT
 
 ### Before Implementation (Current State - FY2017)
@@ -564,57 +431,6 @@ Year 3 Total Impact: +$725K profit (incremental vs. baseline)
 - **PowerBI (.pbix):** Interactive dashboards with 5 pages
 - **Excel (.xlsx):** Transformed dataset + summary statistics
 - **PowerPoint (.pptx):** Executive presentation (5 slides)
-- **Python (.py):** ETL transformation script
-
----
-
-## 📁 Project Structure
-
-```
-Superstore_Profitability_Analysis/
-├── README.md                          # This file
-├── LINKEDIN_POST.md                   # LinkedIn content
-├── 
-├── Data/
-│   ├── Superstore_sales_dataset.xlsx  # Original raw data (Kaggle)
-│   └── Superstore_Transformed.xlsx    # Cleaned & transformed data
-│
-├── Scripts/
-│   └── transform_data.py              # ETL transformation pipeline
-│
-├── PowerBI/
-│   └── final_dashboard.pbix           # Interactive dashboards (5 pages)
-│
-├── Presentation/
-│   ├── Final_Presentation.pptx        # Executive summary (5 slides)
-│   ├── ANALYSIS_PLAN.md               # Detailed analysis framework
-│   ├── DASHBOARD_5_GUIDE.md           # Recommendations guide
-│   └── PowerBI_Setup.md               # DAX measures reference
-│
-└── Documentation/
-    ├── PHASE_1_COMPLETE.md            # Data transformation summary
-    ├── IMPLEMENTATION_CHECKLIST.md    # Project execution log
-    └── QUICK_START.md                 # Dashboard build guide
-```
-
----
-
-## 🚀 QUICK START
-
-### Option 1: View the Analysis
-1. Download `Final_Presentation.pptx` for executive summary
-2. Open `final_dashboard.pbix` in Power BI Desktop for interactive exploration
-
-### Option 2: Reproduce the Analysis
-1. Clone this repository
-2. Install dependencies: `pip install pandas numpy openpyxl`
-3. Run: `python scripts/transform_data.py`
-4. Open `PowerBI/final_dashboard.pbix` and refresh data source
-
-### Option 3: Explore the Transformed Data
-- Open `Data/Superstore_Transformed.xlsx` in Excel
-- View "Transformed Data" sheet (9,994 rows × 32 columns)
-- See "Summary" sheet for key metrics
 
 ---
 
@@ -709,13 +525,7 @@ Superstore_Profitability_Analysis/
 
 ---
 
-## 🎓 Key Insights for Practitioners
-
-### What Worked Well
-✅ **Automated ETL Pipeline:** Python script handled all transformations reproducibly  
-✅ **DAX Measures:** Centralized metric definitions enabled consistent analysis  
-✅ **Multi-Dimensional Segmentation:** Analyzing performance by Category × Segment × Region revealed hidden patterns  
-✅ **"What-If" Scenarios:** Using current data to project future state proved highly persuasive  
+## 🎓 Key Insights for Practitioners 
 
 ### Lessons Learned
 📚 **Discounting destroys more than it creates:** High-discount strategy generated losses, not volume  
@@ -729,7 +539,6 @@ Superstore_Profitability_Analysis/
 
 **Type:** Freelance Analytics Project  
 **Dataset:** Superstore Sales Dataset (Kaggle)  
-**Duration:** 60-minute case study  
 **Tools:** Python, Power BI, DAX, Excel  
 
 This project demonstrates:
@@ -741,31 +550,9 @@ This project demonstrates:
 
 ---
 
-## 📞 Questions & Contact
-
-For questions about this analysis:
-- Review the Executive Summary: `Final_Presentation.pptx`
-- Explore interactive dashboards: `final_dashboard.pbix`
-- Check detailed documentation in `/Documentation` folder
-
----
 
 ## 📄 License
 
 This analysis is provided as a portfolio project. The original Superstore dataset is publicly available on Kaggle.
 
----
 
-## ⭐ If You Found This Useful
-
-If this analysis helped you or inspired your own work, please consider:
-- ⭐ Starring this repository
-- 💬 Sharing on LinkedIn or Twitter
-- 🔗 Linking to this project in your portfolio
-- 📧 Providing feedback or suggestions
-
----
-
-**Last Updated:** May 18, 2026  
-**Version:** 1.0  
-**Status:** ✅ Complete & Production Ready
