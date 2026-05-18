@@ -17,19 +17,6 @@ This project analyzes a retail superstore's 4-year sales dataset (2014-2017) to 
 
 ---
 
-## 🎯 Business Problem Statement
-
-The CEO of a national US retailer (selling Furniture, Office Supplies, Technology across 4 regions to 3 customer segments) needed to answer:
-
-> *"Our revenue is up 50%, but I have a feeling we are growing the wrong things. Where are we winning, where are we losing money, and what should we change?"*
-
-**Objectives:**
-- Identify where profitable growth occurs vs. unprofitable growth
-- Quantify financial impact of operational inefficiencies
-- Provide specific, actionable recommendations for FY2018
-
----
-
 ## 📊 Dataset Information
 
 | Attribute | Details |
